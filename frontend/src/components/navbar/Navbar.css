@@ -1,6 +1,57 @@
-.navbar{
-    padding: 20px 0;
+
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.navbar .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+.navbar-menu{
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
     align-items: center;
+    font-size: 18px;
+    color: #49557e;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar button{
+    padding: 10px 30px;
+    border: 1px solid #49557e;
+    border-radius: 50px;
+    color: #49557e;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    top: -8px;
+    right: -8px;
 }
