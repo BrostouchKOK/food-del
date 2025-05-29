@@ -6,9 +6,9 @@
   /* align-items: center; */
 }
 .navbar .logo{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    color: orange;
+    color: tomato;
 }
 .navbar-menu{
     display: flex;

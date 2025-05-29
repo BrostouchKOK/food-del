@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1 className="logo">The-Fast.</h1>
+      <h1 className="logo">KBT-FOOD.</h1>
       <ul className="navbar-menu">
         <li onClick={()=>setMenu("home")} className={menu === "home"?"active" : ""}>home</li>
         <li onClick={()=>setMenu("menu")} className={menu === "menu"?"active" : ""}>menu</li>
