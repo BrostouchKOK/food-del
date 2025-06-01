@@ -91,6 +91,43 @@
     font-size: 15px;
   }
 }
+.navbar-profile{
+  position: relative;
+}
+.navbar-profile img{
+  cursor: pointer;
+}
+.nav-profile-drpdown{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  right: 0;
+  
+}
+.navbar-profile:hover .nav-profile-drpdown{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 25px;
+  gap: 10px;
+  background-color: #fff2ef;
+  border-radius: 4px;
+  outline: 2px solid white;
+  border: 1px solid tomato;
+  list-style-type: none;
+}
+.nav-profile-drpdown li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.nav-profile-drpdown img{
+  width: 20px;
+}
+.nav-profile-drpdown li:hover{
+  color: tomato;
+}
+
 @media (max-width: 750px) {
   .navbar .logo {
     font-size: 20px;
